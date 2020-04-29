@@ -67,7 +67,6 @@ Route::group(['middleware'=>'admin'], function (){
         });
     });
 
-
 //Route::get('/user' , function () {
 //    $jobs = Job::all();
 //
@@ -79,6 +78,7 @@ Route::get('/details/{id}' , function ($id) {
     $appsArray = Application::all();
 //    $appUsers =[];
 //    $apps =[];
+
     $apps = null;
     if(Auth::user())
         foreach($appsArray as $app) {
@@ -89,7 +89,7 @@ Route::get('/details/{id}' , function ($id) {
             }
         }
 
-
+//kek
     return view('details' , compact('job', 'apps'));
 
 });

@@ -13,6 +13,9 @@
       <executable />
     </execution>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
@@ -78,6 +81,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1aqdGs7qBogjn4N6tVXkIbX3xfq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -85,6 +89,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/js" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -126,7 +131,7 @@
       <workItem from="1588071329844" duration="1335000" />
       <workItem from="1588079467567" duration="15776000" />
       <workItem from="1588162386274" duration="2727000" />
-      <workItem from="1588173874016" duration="5840000" />
+      <workItem from="1588173874016" duration="6174000" />
     </task>
     <servers />
   </component>
