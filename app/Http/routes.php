@@ -36,7 +36,7 @@ Route::get ( '/search', function () {
         ->where('schedule', 'LIKE', "%{$schedule}%")
         ->get();
 
-//    $jobs = Job::where ( 'city', 'LIKE', '%' . $city . '%' )->get ();
+
     if (count ( $jobs ) > 0)
         return view('welcome', compact('jobs'));
     else {
