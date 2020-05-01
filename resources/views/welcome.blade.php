@@ -10,7 +10,7 @@
                         <h1 class="text-white font-weight-bold">IITU-Students employment</h1>
                         <p>Find your dream jobs in our powerful career.</p>
                     </div>
-                    <form href="{{ url('/search') }}" method="get" class="search-jobs-form">
+                    <form action="{{ url('/search') }}" method="get" class="search-jobs-form">
                         <div class="row mb-5">
                             <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                                 <input type="text" name="name" class="form-control form-control-lg" placeholder="Job title, keywords...">
@@ -18,21 +18,16 @@
                             <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                                 <select name="city" class="form-control">
                                     <option>Anywhere</option>
-                                    <option>San Francisco</option>
-                                    <option>Palo Alto</option>
+                                    <option>Peking</option>
+                                    <option>Almaty</option>
                                     <option>New York</option>
-                                    <option>Manhattan</option>
-                                    <option>Ontario</option>
-                                    <option>Toronto</option>
-                                    <option>Kansas</option>
-                                    <option>Mountain View</option>
                                 </select>
                             </div>
                             <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
                                 <select name="schedule" class="form-control">
-                                    <option>Part Time</option>
-                                    <option>Full Time</option>
-                                    <option>Freelancer</option>
+                                    <option>part-time</option>
+                                    <option>full-time</option>
+                                    <option>freelancer</option>
                                 </select>
                             </div>
                             <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
@@ -64,7 +59,7 @@
                         </div>
                         <div class="col-md-4">
                             <span class="badge badge-primary px-2 py-1 mb-3">{{$job->schedule}}</span>
-                            <h2><a href="job-single.html">{{$job->name}}</a> </h2>
+                            <h2><a href="{{ url('/details/' .$job->id) }}">{{$job->name}}</a> </h2>
                             <p class="meta">Publisher: <strong>{{$job->user->name}}</strong>
                                 looking for:
                                 <strong>@foreach($job->specialty as $specialty)

@@ -28,6 +28,8 @@ Route::get ( '/search', function () {
     $name = Input::get ( 'name' );
     $city = Input::get ( 'city' );
     $schedule = Input::get ( 'schedule' );
+    if($city == "Anywhere")
+        $city ="";
     $jobs = Job::query()
         ->where('name', 'LIKE', "%{$name}%")
         ->where('city', 'LIKE', "%{$city}%")
