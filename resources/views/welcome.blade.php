@@ -139,7 +139,7 @@
                     <p class="mb-0 text-white lead">We are working to find your future job</p>
                 </div>
                 <div class="col-md-3 ml-auto">
-                    <a href="#" class="btn btn-warning btn-block btn-lg">Sign Up</a>
+                    <a href="{{ url('/register') }}" class="btn btn-warning btn-block btn-lg">Sign Up</a>
                 </div>
             </div>
         </div>

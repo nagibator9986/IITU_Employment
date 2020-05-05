@@ -16,17 +16,7 @@
         </div>
     </section>
 
-    <section class="site-section pb-0">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 mb-5 mb-lg-0">
-                    <a data-fancybox data-ratio="2" href="https://vimeo.com/317571768" class="block__96788">
-                        <span class="play-icon"><span class="icon-play"></span></span>
-                        <img src="images/about_1.jpg" alt="Image" class="img-fluid img-shadow">
-                    </a>
-                </div>
-                <div class="col-lg-5 ml-auto">
-                    <h2 class="section-title mb-3">Careers for Your Careers</h2>
+
 
 
                 </div>
@@ -66,7 +56,7 @@
 
                     <h3>Tleubekov Azamat</h3>
                     <p class="text-muted">Ceo developer</p>
-                    <p>The main frnt-end deveoper of this powerful team</p>
+                    <p>The main front-end deveoper of this powerful team</p>
                     <div class="social mt-4">
                         <a href="#"><span class="icon-facebook"></span></a>
                         <a href="#"><span class="icon-twitter"></span></a>
@@ -80,16 +70,7 @@
     </section>
 
 
-    <section class="py-5 bg-image overlay-primary fixed overlay" id="next-section"
-             style="background-image: url('images/hero_1.jpg');">
-        <div class="container">
-            <div class="row mb-5 justify-content-center">
-                <div class="col-md-7 text-center">
-                    <h2 class="section-title mb-2 text-white">JobBoard Site Stats</h2>
-                    <p class="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita unde officiis
-                        recusandae sequi excepturi corrupti.</p>
-                </div>
-            </div>
+  
             <div class="row pb-0 block__19738 section-counter">
 
                 <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
@@ -168,17 +149,7 @@
                 </div>
             </div>
 
-            <div class="row text-center">
-                <div class="col-12">
-                    <p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        Copyright &copy;
-                        <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made
-                        with <i class="icon-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com"
-                                                                                   target="_blank">Colorlib</a>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                    </p>
-                </div>
+    
             </div>
         </div>
     </footer>

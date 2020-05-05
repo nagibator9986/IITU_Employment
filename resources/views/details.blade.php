@@ -32,7 +32,7 @@
                 <div class="col-lg-8 mb-4 mb-lg-0">
                     <div class="d-flex align-items-center">
                         <div class="border p-2 d-inline-block mr-3 rounded">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/1004px-Google_%22G%22_Logo.svg.png" alt="Free Website Template By Free-Template.co" width="100" height="100 ">
+                            <img src="https://lh3.googleusercontent.com/FzTCzWzK6qBMAr4DSfKbwO6EqgENsNaRPKeSWsKeEmubOvVymThCQmULjntEqtFwp6c"  width="100" height="100 ">
                         </div>
                         <div>
                             <h2>{{$job->name}}</h2>
@@ -76,7 +76,7 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="mb-5">
-                        <figure class="mb-5"><img src="images/sq_img_1.jpg" alt="Free Website Template by Free-Template.co"
+                        <figure class="mb-5"><img src="https://lh3.googleusercontent.com/proxy/dbocZPqXZEsN3ig4pj0A44ULYAJca4DURveQxk4-u1nnvGOHffiPmvEqYJDNwhvX8ESzLrcQopvg7HB5P6VoPAmczL0grSmSp5L-WTXC-h9PUsPZzWZPhwPAkfFWR4o_B0xj3Ls1aWRQxptuqyEqPoM" alt="Free Website Template by Free-Template.co"
                                                   class="img-fluid rounded"></figure>
                         <h3 class="h5 d-flex align-items-center mb-4 text-primary"><span class="icon-align-left mr-3"></span>Job
                             Description</h3>
