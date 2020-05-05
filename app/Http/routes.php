@@ -24,6 +24,15 @@ Route::get('/', function () {
     return view('welcome', compact('jobs'));
 });
 
+Route::get('/about', function () {
+
+    return view('about');
+});
+Route::get('/blog', function () {
+
+    return view('blog');
+});
+
 Route::get ( '/search', function () {
     $name = Input::get ( 'name' );
     $city = Input::get ( 'city' );

@@ -52,6 +52,7 @@
 
             <div class="mb-5">
                 @if($jobs)
+
                     @foreach($jobs as $job)
                         <div class="row align-items-start job-item border-bottom pb-3 mb-3 pt-3">
                         <div class="col-md-2">
@@ -114,69 +115,23 @@
 
                 </div>
                 <div class="col-6 col-lg-3 col-md-6 text-center">
-                    <img src="images/logo_mailchimp.svg" alt="Image" class="img-fluid logo-1">
+                    <img src="img/logo_mailchimp.svg" alt="Image" class="img-fluid logo-1">
                 </div>
                 <div class="col-6 col-lg-3 col-md-6 text-center">
-                    <img src="images/logo_paypal.svg" alt="Image" class="img-fluid logo-2">
+                    <img src="img/logo_paypal.svg" alt="Image" class="img-fluid logo-2">
                 </div>
                 <div class="col-6 col-lg-3 col-md-6 text-center">
-                    <img src="images/logo_stripe.svg" alt="Image" class="img-fluid logo-3">
+                    <img src="img/logo_stripe.svg" alt="Image" class="img-fluid logo-3">
                 </div>
                 <div class="col-6 col-lg-3 col-md-6 text-center">
-                    <img src="images/logo_visa.svg" alt="Image" class="img-fluid logo-4">
+                    <img src="img/logo_visa.svg" alt="Image" class="img-fluid logo-4">
                 </div>
             </div>
         </div>
     </section>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section class="bg-light pt-5 testimony-full">
-
-        <div class="owl-carousel single-carousel">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 mx-auto">
-                        <img class="img-fluid mx-auto" src="https://buki.kz/data/files/users/15402287428317.jpg" alt="Image">
-                        <blockquote>
-                            <p>&ldquo;Muchas gracias amigo , Этот сайт помог найти мне работу моей мечты , где я каждый день тружусь на благо поисковой сети google , спасибо IITU CAREERS &rdquo;</p>
-                            <p><cite> &mdash;Orazaly Karl , google web-developer</cite></p>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 mx-auto">
-                        <img class="img-fluid mx-auto" src="https://sun9-72.userapi.com/c854220/v854220162/139e07/6iXuX16bHJI.jpg" alt="Image">
-                        <blockquote>
-                            <p>&ldquo;Soluta quasi cum delectus eum facilis recusandae nesciunt molestias accusantium libero dolores repellat id in dolorem laborum ad modi qui at quas dolorum voluptatem voluptatum repudiandae.&rdquo;</p>
-                            <p><cite> &mdash; Fazylzhan Zheten</cite></p>
-                        </blockquote>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="py-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
+    <section class="py-5 bg-image overlay-primary fixed overlay" >
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-8">
@@ -226,8 +181,8 @@
                 <div class="col-6 col-md-3 mb-4 mb-md-0">
                     <h3>Contact Us</h3>
                     <div class="footer-social">
-                        <a href="https://www.facebook.com/profile.php?id=100025202350452"><span class="icon-facebook"></span></a>
-                        <a href="https://www.instagram.com/brutal_mhmm/"><span class="icon-instagram"></span></a>
+                        <a href="https://www.facebook.com/profile.php?id=100025202350452"><span class="icon-facebook">f</span></a>
+                        <a href="https://www.instagram.com/brutal_mhmm/"><span class="icon-instagram">ig</span></a>
                         <a class="vk fa fa-vk" href="https://vk.com/id535350832" title="VK.com" target="_blank"><span>vk</span></a>
                         <span class="iconify" data-icon="ei-sc-telegram" data-inline="false"></span>
 

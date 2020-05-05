@@ -1,10 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.jobLayout')
 
 @section('content')
 
 
     <!-- HOME -->
-    <section class="section-hero overlay inner-page bg-image" style="background-image: url('images/hero_1.jpg');"
+    <section class="section-hero overlay inner-page bg-image" style="background-image: url('https://lh3.googleusercontent.com/proxy/YOwftYUeYb6YSDXnkiGcnAM4h1xrOgY68lkp_TC2exm6F1Al-O7XauW4-0btddxhprO0VMK4P0ZHNsbIvMIGMrUYsy-VgzwWHR5hi7tsvJUNwrvKZonOIDJ-lvXxgzPIOg');"
              id="home-section">
         <div class="container">
             <div class="row">
@@ -14,6 +14,16 @@
             </div>
         </div>
     </section>
+{{--    <section class="section-hero overlay inner-page bg-image" style="background-image: url('images/hero_1.jpg');"--}}
+{{--             id="home-section">--}}
+{{--        <div class="container">--}}
+{{--            <div class="row">--}}
+{{--                <div class="col-md-7">--}}
+{{--                    <h1 class="text-white font-weight-bold"></h1>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </section>--}}
 
 
     <section class="site-section">
@@ -234,5 +244,5 @@
     <script src="js/owl.carousel.min.js"></script>
 
     <script src="js/custom.js"></script>
-
+    </footer>
 @endsection
